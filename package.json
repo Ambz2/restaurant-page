@@ -1,0 +1,23 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "Restaurant page for the Odin Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ambz2/restaurant-page.git"
+  },
+  "author": "Ambz2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ambz2/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/Ambz2/restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+  }
+}
