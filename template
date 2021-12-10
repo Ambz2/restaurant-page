@@ -1,0 +1,60 @@
+<header>
+            <h1>La Salamia</h1>
+            <nav>
+                <button>Home</button>
+                <button>Menu</button>
+                <button>Contact Us</button>
+            </nav>
+        </header>
+        
+        <div class="modal">
+            <img src="/images/la-salamiarama.jpg" id="headchef">
+        </div>
+        <div id="section3">
+            <h2>Opening Times</h2>
+            <table id="openingTimes">
+                <tr>
+                    <td>Monday</td>
+                    <td>5pm - 11:30pm</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>5pm - 11:30pm</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>5pm - 11:30pm</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>5pm - 11:30pm</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>5pm - 11:30pm</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>6pm - 01:30am</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>4pm - 10:00pm</td>
+                </tr>
+            </table>
+        </div>
+        <div id="section4">
+            <h2>Reviews:</h2>
+            <div class="review">
+                This is absolutely the best restaurant I have ever been to. 
+                At first thought, I thought salami couldn't exclusively bring
+                me the same joy as a bowl of sushi could, but 1 mouthful of each of the courses
+                just brought me extreme joy and satisfaction. The head chef really does know what he's
+                doing! <br> - Remi
+            </div>
+
+        </div>
+        <div id="section5">
+            <h2>Location:</h2>
+            <img src="/images/location.png">
+        </div>

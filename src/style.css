@@ -1,4 +1,108 @@
-#logo {
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Italianno&display=swap');
+
+body, html {
+    border: 0;
+    margin: 0px;
+    padding:0px;
+    height:100vh;
+}
+
+header {
+    background-color: rgb(24, 23, 23);
     color:white;
-    font-size: 72px;
+    padding:10px;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+    font-family: 'Italianno', cursive;
+}
+
+h1 {
+    margin:0;
+    font-size:106px;
+}
+
+
+button {
+    background: transparent;
+    border:none;
+    color:white;
+    font-size:72px;
+    transition:0.2s;
+    margin:5px;
+    font-family: 'Italianno', cursive;
+}
+
+button:hover {
+    color:white;
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+
+.modal {
+    display:flex;
+    justify-content: center;
+    background-color: rgb(45, 53, 88);
+    padding:10px;
+    height:20%;
+}
+
+#headchef {
+    border-radius:50%;
+    width:50%;
+}
+
+#section3 {
+    background-color: black;
+    color:white;
+    font-family: 'Italianno', cursive;
+    padding:10px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    font-size:32px;
+}
+
+#openingTimes {
+    font-family: 'Gideon Roman', cursive;
+    width:50%;
+    text-align:center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#section4 {
+    padding:10px;
+    background-color: rgb(45, 53, 88);
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Italianno, cursive;
+    font-size:32px;
+}
+
+.review {
+    border: 5px solid black;
+    padding:5px;
+    font-family: 'Gideon Roman', cursive;
+    font-size: 20px;
+    max-width:800px;
+}
+
+#section5 {
+    background-color: black;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    font-family: Italianno, cursive;
+    font-size: 32px;
+}
+
+#section5 > img {
+    width:80%;
+    align-self: center;
+    margin:10px;
 }

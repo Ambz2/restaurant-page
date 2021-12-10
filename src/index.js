@@ -1,1 +1,5 @@
-console.log('hi')
+import './style.css';
+import {loadHeader, loadHome} from './loadHome'
+
+loadHeader()
+loadHome()
