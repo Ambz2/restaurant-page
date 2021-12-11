@@ -1,5 +1,6 @@
 import './style.css';
 import {loadHeader, loadHome} from './loadHome'
+import {loadMenu} from './loadMenu'
 
 loadHeader()
 loadHome()
@@ -22,4 +23,5 @@ homeButton.addEventListener('click', () => {
 
 menuButton.addEventListener('click', () => {
     clearDOM()
+    loadMenu()
 })

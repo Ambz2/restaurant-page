@@ -1,3 +1,6 @@
+import headChef from './images/la-salamiarama.jpg';
+import location from './images/location.png'
+
 let content = document.querySelector('#content');
 let main = document.createElement('div')
 main.setAttribute('id', 'main')
@@ -42,8 +45,8 @@ const createModal = function() {
     let modal = document.createElement('div')
     modal.classList.add('modal')
 
-    let headchef = document.createElement('img')
-    headchef.src = '/images/la-salamiarama.jpg'
+    const headchef = new Image();
+    headchef.src = headChef
     headchef.setAttribute("id", 'headchef')
 
     modal.appendChild(headchef)
@@ -104,7 +107,7 @@ const createSection4 = function() {
     At first thought, I thought salami couldn't exclusively bring
     me the same joy as a bowl of sushi could, but 1 mouthful of each of the courses
     just brought me extreme joy and satisfaction. The head chef really does know what he's
-    doing! <br> - Remi`
+    doing!- Remi`
 
     section4.appendChild(title)
     section4.appendChild(review)
@@ -118,8 +121,8 @@ const createSection5 = function() {
     let title = document.createElement('h2');
     title.textContent = `Location: `;
 
-    let img = document.createElement('img');
-    img.src = '/images/location.png'
+    let img = new Image();
+    img.src = location
 
     section5.appendChild(title)
     section5.appendChild(img)

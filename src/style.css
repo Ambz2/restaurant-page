@@ -23,6 +23,9 @@ h1 {
     font-size:106px;
 }
 
+h2 { 
+    font-size: 48px;
+}
 
 button {
     background: transparent;
@@ -105,4 +108,41 @@ button:hover {
     width:80%;
     align-self: center;
     margin:10px;
+}
+
+.container {
+    margin:20px;
+    padding:20px;
+    font-family: Italianno, cursive;
+    border: 5px solid black;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.itemTitle {
+    font-size:48px;
+    margin:0px;
+}
+
+.displayPicture {
+    width:300px;
+    height:300px;
+    object-fit:scale-down;
+    margin-bottom:10px;
+}
+
+.menuItem {
+    border: 2px solid black;
+    padding:5px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    max-width: 300px;
+    text-align:center;
+    margin:7px;
+}
+
+.container h2 {
+    font-size: 72px;
 }
