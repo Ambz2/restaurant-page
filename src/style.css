@@ -25,6 +25,12 @@ h1 {
 
 h2 { 
     font-size: 48px;
+    font-family: Italianno, cursive;
+}
+
+h3 {
+    font-size: 32px;
+    font-family : Italianno, cursive; 
 }
 
 button {
@@ -145,4 +151,19 @@ button:hover {
 
 .container h2 {
     font-size: 72px;
+}
+
+.contactus {
+    padding:20px;
+    margin:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(45, 53, 88);;
+}
+
+.contactus > * {
+    border: 2px solid white;
+    padding:10px;
+    background-color: rgb(250, 208, 208)
 }

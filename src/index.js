@@ -1,6 +1,7 @@
 import './style.css';
 import {loadHeader, loadHome} from './loadHome'
 import {loadMenu} from './loadMenu'
+import {loadContact} from './loadContact'
 
 loadHeader()
 loadHome()
@@ -17,11 +18,16 @@ const clearDOM = function() {
 }
 
 homeButton.addEventListener('click', () => {
-    clearDOM()
-    loadHome()
+    clearDOM();
+    loadHome();
 })
 
 menuButton.addEventListener('click', () => {
-    clearDOM()
-    loadMenu()
+    clearDOM();
+    loadMenu();
 })
+
+contactButton.addEventListener('click', () => {
+    clearDOM();
+    loadContact()
+} )

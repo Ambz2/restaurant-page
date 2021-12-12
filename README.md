@@ -10,20 +10,20 @@ The webpage will have 3 main pages which will need to be populated by modules wh
 The webpage is a mock of a fake restaurant, a salami-only themed restaurant called 'La Salamaia', which features salami appetisers, mains, and desserts. 
 
 First tab: Homepage;
--- Opening hours
--- Location
--- Reviews
--- Picture of an italian chef
+-- Opening hours ✓
+-- Location ✓
+-- Reviews ✓
+-- Picture of an italian chef ✓
 
 Second tab: Menu;
--- Appetisers
--- Main Menu
--- Desserts
--- Drinks
+-- Appetisers ✓
+-- Main Menu ✓
+-- Desserts ✓
+-- Drinks ✓
 
 Third tab: Contact;
--- Phone numbers for the restaurant
--- email address
--- Picture of the head chef with a sweet bubble
+-- Phone numbers for the restaurant ✓
+-- email address ✓
+-- Picture of the head chef with a sweet bubble ✓head
 -- for media enquiries please contact enrique
 
