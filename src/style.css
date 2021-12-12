@@ -108,10 +108,12 @@ button:hover {
     align-items:center;
     font-family: Italianno, cursive;
     font-size: 32px;
+    padding: 10px;
 }
 
-#section5 > img {
+#section5 > iframe {
     width:80%;
+    height:600px;
     align-self: center;
     margin:10px;
 }

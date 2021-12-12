@@ -121,11 +121,15 @@ const createSection5 = function() {
     let title = document.createElement('h2');
     title.textContent = `Location: `;
 
-    let img = new Image();
-    img.src = location
+    const location = document.createElement('iframe');
+    location.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2818.56957877626!2d12.053015161657296!3d45.05395565228585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477e8c152f87d73d%3A0x5d8deae04a5ee1eb!2s45011%20Adria%2C%20Province%20of%20Rovigo%2C%20Italy!5e0!3m2!1sen!2suk!4v1639327023026!5m2!1sen!2suk"
+    location.style.width = 600
+    location.style.height = 450
+    location.style.border = '0'
+    
 
     section5.appendChild(title)
-    section5.appendChild(img)
+    section5.appendChild(location)
     main.appendChild(section5)
 }
 
